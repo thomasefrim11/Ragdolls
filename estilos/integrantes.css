@@ -1,0 +1,29 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: facelift;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: JMH typewriter;
+    }
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    
+    
+}
+
+footer a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(68, 255, 0);
+}
