@@ -8,7 +8,23 @@
 </head>
 <body>
     <style>/* Definindo a imagem de fundo */
+        @font-face {
+            font-family: 'face';
+            src: url('fonts/facelift.otf') format('opentype'),
+             url('fonts/facelift.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'jmh';
+            src: url('fonts/jmh.otf') format('opentype'),
+            url('fonts/jmh.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
         body {
+            font-family: 'jmh';
             margin: 0;
             padding: 0;
             height: 100vh;
@@ -16,6 +32,12 @@
             background-size: cover; /* Faz a imagem cobrir toda a tela */
             background-position: center; /* Centraliza a imagem */
             background-repeat: no-repeat; /* Impede a repetição da imagem */
+        }
+        nav {
+            font-family: 'face', 'Times New Roman';
+        }
+        h1 {
+            font-family: 'face', 'Times New Roman';
         }
     </style>
 
