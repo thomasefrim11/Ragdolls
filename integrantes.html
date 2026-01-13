@@ -26,13 +26,23 @@
             font-family: 'face';
         }
         body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
             background-image: url('./imagens/background3.jpg'); /* Coloque o caminho da sua imagem aqui */
-            background-size: cover; /* Faz a imagem cobrir toda a tela */
-            background-position: center; /* Centraliza a imagem */
-            background-repeat: no-repeat; /* Impede a repetição da imagem */
+            /* Garante que a imagem cubra toda a área disponível */
+            background-size: cover;
+            
+            /* Centraliza a imagem horizontal e verticalmente */
+            background-position: center;
+            
+            /* Impede que a imagem se repita se for pequena */
+            background-repeat: no-repeat;
+            
+            /* Fixa a imagem na tela para que ela não suba com o scroll */
+            background-attachment: fixed;
+            
+            /* Remove margens padrão e garante altura total */
+            margin: 0;
+            height: 100vh;
+            overflow-x: hidden; /* Evita rolagem horizontal acidental */
             font-family: 'jmh';
         }
     </style>
