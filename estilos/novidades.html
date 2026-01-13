@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novidades</title>
+    <link rel="stylesheet" href="./estilos/novidades.css">
+</head>
+<body>
+    <style>
+    @font-face {
+            font-family: 'face';
+            src: url('fonts/facelift.otf') format('opentype'),
+             url('fonts/facelift.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'jmh';
+            src: url('fonts/jmh.otf') format('opentype'),
+            url('fonts/jmh.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    /* Definindo a imagem de fundo */
+        h1{
+            font-family: 'face';
+        }
+        body {
+            background-image: url('./imagens/background1.jpg'); /* Coloque o caminho da sua imagem aqui */
+            /* Garante que a imagem cubra toda a área disponível */
+            background-size: cover;
+            
+            /* Centraliza a imagem horizontal e verticalmente */
+            background-position: center;
+            
+            /* Impede que a imagem se repita se for pequena */
+            background-repeat: no-repeat;
+            
+            /* Fixa a imagem na tela para que ela não suba com o scroll */
+            background-attachment: fixed;
+            
+            /* Remove margens padrão e garante altura total */
+            margin: 0;
+            height: 100vh;
+            overflow-x: hidden; /* Evita rolagem horizontal acidental */
+            font-family: 'jmh';
+        }
+    </style>
+    <h1>Novidades</h1>
+    <p>nada ainda.</p>
+     <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">voltar para a pagina principal</a>
+                </li>
+            </ul>
+    </footer>
+</body>
+</html>
